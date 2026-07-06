@@ -1,11 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 body{
-    background-color: beige;
+    background-color: rgb(204, 204, 188);
     font-family: sans-serif;
     color: gold;
     font-size: 1rem;
     line-height: 1.5;
 }
-header{
-    background-color: green;
-    text-align: center; 
+.cabecalho{
+    background-color: rgb(11, 107, 11);
+    height: 25vh;
+    text-align: center;
+}
+.navega{
+    gap: 20px;
+    justify-content: space-between;
 }
