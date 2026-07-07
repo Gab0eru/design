@@ -16,10 +16,10 @@
         <!--Menu de navegação-->
         <nav class="navega">
             <ul>
-                <a href="#">Sobre nós </a>
-                <a href="#">Serviços </a>
-                <a href="#">Depoimentos </a>
-                <a href="#">Contatos </a>
+                <a href="#sobre">Sobre nós</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#depo">Depoimentos </a>
+                <a href="#contatos">Contatos </a>
             </ul>
         </nav>
         </div>
@@ -29,20 +29,36 @@
         <!--Conteúdo principal-->
         <div class="principal">
         <h2>Bem-vindo!</h2>
-        <h3>Sobre nós:</h3>
-        <p></p>
-        <h4>Serviços:</h4>
-        <p></p>
-        <h5>Depoimentos:</h5>
+        <h3 id="sobre">Sobre nós:</h3>
+        <p>com anos de experiência a ACW vem personalizando 
+            o mercado com seu toque único, indo de pequenos negócios até
+            grandes empresas. Confira alguns de nossos serviços!
+        </p>
+        <h4 id="servicos">Serviços:</h4>
+        <p>Criação de sites: Criamos sites personalizados que 
+            encaixem na identidade visual de seu negócio.
+        </p>
+        <p>Marketing digital: com uma equipe especialista em 
+            marketing digital que vai ajudar a levar o seu produto
+            ao feed do seu cliente.
+        </p>
+        <p>formulação da marca: nossos desingners estão a disposição
+            para personalizar, reformular ou adicionar pequenos toques
+            a sua marca.
+        </p>
+        <h5 id="depo">Depoimentos:</h5>
         <p></p>
         </div>
         
         <!--Contatos-->
-        <div class="Contato">
-        <h6>Contato:</h6>
+        <div class="Contatos">
+        <h6 id="contato">Contato:</h6>
         <p>(xx) xxxxx-xxxx</p>
         <p>agenciaCriativa@gmail.com</p>
-        <input type="text" placeholder="Nome">
+        <div class="input-box">
+        <input type="text" required>
+        <label>Nome</label>
+        </div>
         <input type="text" placeholder="Email">
         <input type="number" placeholder="Numero">
         <input type="text" placeholder="Assunto">
