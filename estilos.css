@@ -2,28 +2,3 @@
     margin: 0px;
     padding: 0px;
 }
-body{
-    background-color: #FFF8F0;
-    font-family: sans-serif;
-    color: #2D3436;
-    font-size: 1rem;
-    line-height: 1.5;
-}
-.cabecalho{
-    background-color: #1E1E1E;
-    height: 25vh;
-    text-align: center;
-}
-.navega{
-    gap: 20px;
-    justify-content: space-between;
-}
-.principal{
-    background-color: #FF6B6B;
-}
-.contato{
-    background-color: #4ECDC4;
-}
-.botao{
-    background-color: #6C5CE7;
-}
