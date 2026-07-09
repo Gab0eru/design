@@ -3,7 +3,7 @@
     padding: 0%;
 }
 body{
-    color: rgb(236, 173, 12);
+    color: rgb(61, 61, 60);
 }
 main{
     display: grid;
@@ -12,41 +12,64 @@ main{
     margin: auto;
 }
 
+.banner{
+    color: rgb(236, 173, 12);
+}
+
 .cabecalho{
     background: transparent;
     font-size: 1.25rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    
+    flex-direction: row;
     gap: 1rem;
 
     border-bottom-left-radius: 1em;
     border-bottom-right-radius: 1em;
 }
-nav{
-    display: flex;
-    align-items: center;
-    gap: 1em;
+.cabecalho h1{
+    text-align: left;
+    color: rgb(236, 173, 12);
+}
+.cabecalho nav{
+    text-align: right;
+    padding-right: 1rem;
 }
 
 .banner{
     text-align: center;
 }
+
 .sobre h2{
     text-align: center;
     display: block;
     flex-direction: column;
+
+    color: rgb(236, 173, 12);
 }
 .sobre p{
     font-size: 1.25rem;
 }
+
 .servico{
     display: grid;
     flex-direction: row;
     gap: 1em;
 }
+.servico h3{
+    text-align: center;
+    color: rgb(236, 173, 12);
+}
+
+.depo h4{
+    text-align: center;
+    color: rgb(236, 173, 12);
+}
+
 .contato{
     display: flex;
     flex-direction: column;
     gap: 1em;
+}
+.contato h5{
+    color: rgb(236, 173, 12);
 }
