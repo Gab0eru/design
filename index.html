@@ -9,67 +9,92 @@
 </head>
 <body>
     <header>
-        <div class="cabecalho">
-        <!--Cabeçalho da página-->
-        <h1>Agência criativa web</h1>
-        <p>Design com visão</p>
-        <!--Menu de navegação-->
-        <nav class="navega">
-            <ul>
+        <section class="cabecalho">
+            <!--Cabeçalho da página-->
+            <h1>Agência criativa web</h1>
+            <p>Design com visão</p>
+            
+            <!--Menu de navegação-->
+            <nav class="navega">
                 <a href="#sobre">Sobre nós</a>
                 <a href="#servicos">Serviços</a>
                 <a href="#depo">Depoimentos </a>
                 <a href="#contatos">Contatos </a>
-            </ul>
-        </nav>
-        </div>
+            </nav>
+        </section>
     </header>
 
     <main>
         <!--Conteúdo principal-->
-        <h1>Bem-vindo!</h1>
-        <div class="sobre" id="sobre">
-        <h2>Sobre nós:</h2>
-        <p>com anos de experiência a ACW vem personalizando 
+        
+        <h1 class="banner">Bem-vindo!</h1>
+        <section class="sobre" id="sobre">
+            <h2>Sobre nós:</h2>
+            <p>com anos de experiência a ACW vem personalizando 
             o mercado com seu toque único, indo de pequenos negócios até
-            grandes empresas. Confira alguns de nossos serviços!
-        </p>
-        </div>
-
-        <div class="servicos" id="servicos">
-        <h3>Serviços:</h3>
-        <p>Criação de sites: Criamos sites personalizados que 
+            grandes empresas. Confira alguns de nossos serviços!</p>
+        </section>
+       
+        <!--Serviços-->
+        <section class="servico" id="servicos">
+            <h3>Serviços:</h3>
+            <div>
+            Criação de sites: Criamos sites personalizados que 
             encaixem na identidade visual de seu negócio.
-        </p>
-        <p>Marketing digital: com uma equipe especialista em 
+            </div>
+            <div>
+            Marketing digital: com uma equipe especialista em 
             marketing digital que vai ajudar a levar o seu produto
             ao feed do seu cliente.
-        </p>
-        <p>formulação da marca: nossos desingners estão a disposição
+            </div>
+            <div>
+            Branding: nossos desingners estão a disposição
             para personalizar, reformular ou adicionar pequenos toques
             a sua marca.
-        </p>
-        </div>
-
-        <div class="depo" id="depo"></div>
-        <h4>Depoimentos:</h4>
-        <p>Kublai Khan</p>
-        <p>Gengis Khan</p>
-        <p>Guyuk Khan</p>
-        </div>
-        
+            </div>
+            <div>
+                Design gráfico: também personalizamos materiais fisicos
+                como embalagens e banners, prezando sempre pela identidade
+                unica da sua marca.
+            </div>
+        </section>
+       
+        <!--Depoimentos-->
+        <section class="depo" id="depo"></div>
+            <h4>Depoimentos:</h4>
+            <div>Kublai Khan</div>
+            <p>incrível atendimento, além de rápido
+é atencioso e sempre procuram entender
+o que o cliente precisa
+            </p>
+            <div>Gengis Khan</div>
+            <p>Minha marca foi elevada a outro nível!
+achava que era impossível uma loja de
+bananas chegar a tantas pessoas, minha
+maior dificuldade agora é conseguir 
+fornecer a tantos clientes que vieram
+após os toques da equipe de marketing.
+            </p>
+            <div>Guyuk Khan</div>
+            <p>Criei minha marca do zero com eles! após
+três dias tinha um site funcional e uma 
+identidade visual que combinava com meus
+serviços. 
+            </p>
+        </section>        
+       
         <!--Contatos-->
-        <div class="Contato" id="contatos">
-        <h5>Contato:</h5>
-        <p>(xx) xxxxx-xxxx</p>
-        <p>agenciaCriativa@gmail.com</p>
-        <input type="text" placeholder="Nome">
-        <input type="text" placeholder="Email">
-        <input type="number" placeholder="Numero">
-        <input type="text" placeholder="Assunto">
+        <section class="Contato" id="contatos">
+            <h5>Contato:</h5>
+            <p>(xx) xxxxx-xxxx</p>
+            <p>agenciaCriativa@gmail.com</p>
+            <input type="text" placeholder="Nome">
+            <input type="text" placeholder="Email">
+            <input type="number" placeholder="Numero">
+            <input type="text" placeholder="Assunto">
 
-        <button class="botao">Enviar</button>
-        </div>
+            <button class="botao">Enviar</button>
+        </section>
     </main>
     <footer>
     </footer>

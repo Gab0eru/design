@@ -1,6 +1,52 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    color: rgb(236, 173, 12);
+}
+main{
+    display: grid;
+    gap: 1rem;
+    width: 80%;
+    margin: auto;
+}
+
 .cabecalho{
+    background: transparent;
+    font-size: 1.25rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
+
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+nav{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.banner{
+    text-align: center;
+}
+.sobre h2{
+    text-align: center;
+    display: block;
+    flex-direction: column;
+}
+.sobre p{
+    font-size: 1.25rem;
+}
+.servico{
+    display: grid;
+    flex-direction: row;
+    gap: 1em;
+}
+.contato{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
 }
