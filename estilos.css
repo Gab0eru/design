@@ -4,6 +4,7 @@
 }
 body{
     color: rgb(61, 61, 60);
+    box-sizing: border-box;
 }
 main{
     display: grid;
@@ -13,9 +14,10 @@ main{
 }
 
 .banner{
+    text-align: center;
     color: rgb(236, 173, 12);
 }
-
+/*Cabeçalho*/
 .cabecalho{
     background: transparent;
     font-size: 1.25rem;
@@ -35,10 +37,7 @@ main{
     padding-right: 1rem;
 }
 
-.banner{
-    text-align: center;
-}
-
+/*Sobre*/
 .sobre h2{
     text-align: center;
     display: block;
@@ -50,24 +49,55 @@ main{
     font-size: 1.25rem;
 }
 
-.servico{
-    display: grid;
-    flex-direction: row;
-    gap: 1em;
-}
+/*Serviços*/
 .servico h3{
     text-align: center;
+    padding-bottom: 2em;
     color: rgb(236, 173, 12);
 }
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    text-align: center;
 
+    margin-left: 11rem;
+}
+.topico{
+    color: rgb(236, 173, 12);
+}
+.quadrado{
+    width: 12rem;
+    height: 8rem;
+}
+
+/*Depoimentos*/
 .depo h4{
     text-align: center;
+    padding-bottom: 2em;
+    color: rgb(236, 173, 12);
+}
+.retangulo{
+    display: inline-flex;
+    gap: 2em;
+    padding-bottom: 10%;
+    margin-left: 10rem;
+
+    text-align: center;
+}
+.caixa{
+    width: 12rem;
+    height: 10rem;
+}
+.cliente{
     color: rgb(236, 173, 12);
 }
 
+/*Contatos*/
 .contato{
     display: flex;
     flex-direction: column;
+    text-align: center;
     gap: 1em;
 }
 .contato h5{
