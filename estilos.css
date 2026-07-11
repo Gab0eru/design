@@ -137,4 +137,24 @@ main{
 }
 input{
     background-color: #B8860B;
+    border-radius: 0.5rem;
+}
+/*fazer sumir as setas no input*/
+input[type = "number"] ::-webkit-inner-spin-button,
+input[type = "number"] ::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0%;
+}
+/*faz sumir as setas tbm só que no firefox*/
+input[type = "number"]{
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+button{
+    color: #121212;
+    background-color: #D4AF37;
+    border-radius: 0.5rem;
+}
+button :hover{
+    background-color: #B8860B;
 }
