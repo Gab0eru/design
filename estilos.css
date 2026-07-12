@@ -14,17 +14,6 @@ main{
     margin: auto;
 }
 
-.navega :hover{
-    color: #B8860B; 
-}
-.navega a{
-    color: #D4AF37;
-}
-
-.banner{
-    text-align: center;
-    color: #D4AF37;
-}
 /*Cabeçalho*/
 .cabecalho{
     background: transparent;
@@ -44,6 +33,23 @@ main{
 .cabecalho nav{
     text-align: right;
     padding-right: 1rem;
+}
+.cabecalho img{
+    align-items: flex-start;
+    height: 4rem;
+    width: 4rem;
+}
+
+.navega :hover{
+    color: #B8860B; 
+}
+.navega a{
+    color: #D4AF37;
+}
+
+.banner{
+    text-align: center;
+    color: #D4AF37;
 }
 
 /*Sobre*/
@@ -139,7 +145,7 @@ input{
     background-color: #B8860B;
     border-radius: 0.5rem;
 }
-/*fazer sumir as setas no input*/
+/*fazer sumir as setas no input type number*/
 input[type = "number"] ::-webkit-inner-spin-button,
 input[type = "number"] ::-webkit-outer-spin-button{
     -webkit-appearance: none;
