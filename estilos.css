@@ -19,6 +19,7 @@ main{
     background: transparent;
     font-size: 1.25rem;
     
+    display: flex;
     flex-direction: row;
     gap: 1rem;
 
@@ -35,12 +36,12 @@ main{
     padding-right: 1rem;
 }
 .cabecalho img{
-    align-items: flex-start;
+    
     height: 4rem;
     width: 4rem;
 }
 
-.navega :hover{
+.navega a:hover{
     color: #B8860B; 
 }
 .navega a{
@@ -56,7 +57,7 @@ main{
 .sobre h2{
     font-size: larger;
     text-align: center;
-    display: block;
+    
     flex-direction: column;
 
     color: #D4AF37;
@@ -78,20 +79,20 @@ main{
     gap: 1em;
     text-align: center;
 
-    margin-left: 11rem;
+    align-items: center;
 }
 .topico{
     color: #D4AF37;
 }
 .quadrado{
-    width: 12rem;
-    height: 18rem;
+    max-width: 12rem;
+    height: 100%;
     background-color: #1e1e1e;
     border-radius: 1rem;
-    border-color: #333333;
+    border: 1px #333333;
 }
 .quadrado img{
-    width: 12rem;
+    max-width: 12rem;
     height: 9rem;
 }
 
@@ -115,7 +116,7 @@ main{
     height: 12rem;
     border-radius: 1rem;
     background-color: #1e1e1e;
-    border-color: #333333;
+    border: 1px #333333;
 }
 .cliente{
     color: #D4AF37;
@@ -133,7 +134,7 @@ main{
     margin: 1.25rem;
     background-color: #1e1e1e;
     border-radius: 0.5rem;
-    border-color: #333333;
+    border: 1px #333333;
 
     margin-left: 21rem;
 }
@@ -142,6 +143,7 @@ main{
     color: #D4AF37;
 }
 input{
+    color: #121212;
     background-color: #B8860B;
     border-radius: 0.5rem;
 }
@@ -161,6 +163,6 @@ button{
     background-color: #D4AF37;
     border-radius: 0.5rem;
 }
-button :hover{
+button:hover{
     background-color: #B8860B;
 }
