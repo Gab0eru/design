@@ -75,11 +75,11 @@ main{
 }
 .container{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1em;
+    grid-template-columns: repeat(2, 12rem);
+    gap: 3em;
+    
+    justify-content: center;
     text-align: center;
-
-    align-items: center;
 }
 .topico{
     color: #D4AF37;
