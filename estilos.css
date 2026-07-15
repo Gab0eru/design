@@ -16,19 +16,18 @@ main{
 
 /*Cabeçalho*/
 .cabecalho{
-    background: transparent;
-    font-size: 1.25rem;
-    
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: transparent;
+}
+
+.cabecalho h1{
+    display: flex;
+    align-items: center;
     gap: 1rem;
 
-    border-bottom-left-radius: 1em;
-    border-bottom-right-radius: 1em;
-}
-.cabecalho h1{
-    font-size: larger;
-    text-align: left;
     color: #D4AF37;
 }
 .cabecalho nav{
@@ -36,9 +35,8 @@ main{
     padding-right: 1rem;
 }
 .cabecalho img{
-    
-    height: 4rem;
-    width: 4rem;
+    height: 74px;
+    width: 74px;
 }
 
 .navega a:hover{
@@ -46,12 +44,14 @@ main{
 }
 .navega a{
     color: #D4AF37;
+    text-decoration: none;
 }
 
-.banner{
+/*.banner{
     text-align: center;
     color: #D4AF37;
 }
+*/
 
 /*Sobre*/
 .sobre h2{
@@ -76,7 +76,7 @@ main{
 .container{
     display: grid;
     grid-template-columns: repeat(2, 12rem);
-    gap: 3em;
+    gap: 2em;
     
     justify-content: center;
     text-align: center;
@@ -97,46 +97,47 @@ main{
 }
 
 /*Depoimentos*/
+.retangulo{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    text-align: center;
+    
+}
 .depo h4{
     font-size: larger;
     text-align: center;
     padding-bottom: 2em;
     color: #D4AF37;
 }
-.retangulo{
-    display: inline-flex;
-    gap: 2em;
-    padding-bottom: 10%;
-    margin-left: 10rem;
-
-    text-align: center;
-}
 .caixa{
     width: 12rem;
     height: 12rem;
+    
     border-radius: 1rem;
     background-color: #1e1e1e;
     border: 1px #333333;
 }
 .cliente{
     color: #D4AF37;
+    display: grid;
+    text-align: center;
 }
 
 /*Contatos*/
 .contato{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    gap: 1em;
-
     width: 20rem;
     height: 20rem;
-    margin: 1.25rem;
-    background-color: #1e1e1e;
-    border-radius: 0.5rem;
-    border: 1px #333333;
+    margin: 2rem auto;
 
-    margin-left: 21rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+
+    border-radius: 0.5rem;
+    border: 2px solid#D4AF37;
 }
 .contato h5{
     font-size: larger;
@@ -165,4 +166,7 @@ button{
 }
 button:hover{
     background-color: #B8860B;
+}
+footer{
+    text-align: center;
 }
