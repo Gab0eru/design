@@ -3,14 +3,14 @@
     padding: 0%;
 }
 body{
-    background-color: #121212;
-    color: #f5f5f5;
+    background-color: #F4F4F4;
+    color: #333333;
     box-sizing: border-box;
 }
 main{
     display: grid;
     gap: 1rem;
-    width: 80%;
+    width: 100%;
     margin: auto;
 }
 
@@ -20,7 +20,7 @@ main{
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background-color: transparent;
+    background-color: #929292;
 }
 
 .cabecalho h1{
@@ -28,7 +28,7 @@ main{
     align-items: center;
     gap: 1rem;
 
-    color: #D4AF37;
+    color: #2E5D87;
 }
 .cabecalho nav{
     text-align: right;
@@ -40,16 +40,22 @@ main{
 }
 
 .navega a:hover{
-    color: #B8860B; 
+    color: #2E5D87; 
 }
 .navega a{
-    color: #D4AF37;
+    color: #333333;
     text-decoration: none;
 }
 
-/*.banner{
+.banner{
     text-align: center;
-    color: #D4AF37;
+    color: #333333;
+    background-image: url(imagens/bannerMTbrabo.jpg);
+}
+.imagem{
+    width: 100%;
+    opacity: 0.5;
+    
 }
 .sobre h2{
     font-size: larger;
@@ -57,19 +63,18 @@ main{
     
     flex-direction: column;
 
-    color: #D4AF37;
+    color: #2E5D87;
 }
 .sobre p{
     font-size: 1.25rem;
 }
-*/
 
 /*Serviços*/
 .servico h3{
     font-size: larger;
     text-align: center;
     padding-bottom: 2em;
-    color: #D4AF37;
+    color: #2E5D87;
 }
 .container{
     display: grid;
@@ -80,18 +85,18 @@ main{
     text-align: center;
 }
 .topico{
-    color: #D4AF37;
+    color: #333333;
 }
 .quadrado{
     max-width: 12rem;
     height: 100%;
-    background-color: #1e1e1e;
+    background-color: #F4F4F4;
     border-radius: 1rem;
-    border: 1px #333333;
+    border: 1px solid#D9D9D9;
 }
 .quadrado img{
     max-width: 12rem;
-    height: 9rem;
+    height: 50%;
 }
 
 /*Depoimentos*/
@@ -106,18 +111,18 @@ main{
     font-size: larger;
     text-align: center;
     padding-bottom: 2em;
-    color: #D4AF37;
+    color: #2E5D87;
 }
 .caixa{
     width: 12rem;
     height: 12rem;
     
     border-radius: 1rem;
-    background-color: #1e1e1e;
-    border: 1px #333333;
+    background-color: #F4F4F4;
+    border: 1px solid#D9D9D9;
 }
 .cliente{
-    color: #D4AF37;
+    color: #333333;
     display: grid;
     text-align: center;
 }
@@ -135,15 +140,15 @@ main{
     gap: 1rem;
 
     border-radius: 0.5rem;
-    border: 2px solid#D4AF37;
+    border: 2px solid#D9D9D9;
 }
 .contato h5{
     font-size: larger;
-    color: #D4AF37;
+    color: #2E5D87;
 }
 input{
-    color: #121212;
-    background-color: #B8860B;
+    color: #333333;
+    background-color: #F4F4F4;
     border-radius: 0.5rem;
 }
 /*fazer sumir as setas no input type number*/
@@ -158,13 +163,47 @@ input[type = "number"]{
     appearance: textfield;
 }
 button{
-    color: #121212;
-    background-color: #D4AF37;
+    color: #2E5D87;
+    background-color: #696565;
     border-radius: 0.5rem;
 }
 button:hover{
-    background-color: #B8860B;
+    background-color:#121212;
 }
 footer{
     text-align: center;
+}
+
+
+/*Celular*/
+@media (max-width:700px){
+    .cabecalho{
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+    .navega{
+        display: flex;
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+    .container{
+        grid-template-columns: 1fr;
+    }
+    .quadrado{
+        max-width: 100%;
+    }
+    .retangulo{
+        grid-template-columns: 1fr;
+       gap: 2rem;
+    }
+    .caixa{
+        width: 100%;
+        max-width: 20rem;
+    }
+    .contato{
+        width: 100%;
+    }
+
+
 }
