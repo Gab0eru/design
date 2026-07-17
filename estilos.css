@@ -23,36 +23,36 @@ main{
     background-color: #929292;
 }
 
-.cabecalho h1{
+.cabecalho__titulo{
     display: flex;
     align-items: center;
     gap: 1rem;
 
     color: #2E5D87;
 }
-.cabecalho nav{
+.cabecalho__navega{
     text-align: right;
     padding-right: 1rem;
+}
+.navega--colorido a{
+    color: #333333;
+    text-decoration: none;
+}
+.navega--hover a:hover{
+    color: #2E5D87; 
 }
 .cabecalho img{
     height: 74px;
     width: 74px;
 }
 
-.navega a:hover{
-    color: #2E5D87; 
-}
-.navega a{
-    color: #333333;
-    text-decoration: none;
-}
-
+/*Sobre*/
 .banner{
     text-align: center;
     color: #333333;
     background-image: url(imagens/bannerMTbrabo.jpg);
 }
-.imagem{
+.banner__imagem{
     width: 100%;
     opacity: 0.5;
     
@@ -65,7 +65,7 @@ main{
 
     color: #2E5D87;
 }
-.sobre p{
+.sobre__paragrafo p{
     font-size: 1.25rem;
 }
 
@@ -181,7 +181,7 @@ footer{
         gap: 1rem;
         text-align: center;
     }
-    .navega{
+    .cabecalho__navega{
         display: flex;
         flex-direction: column;
         gap: 0.8rem;
