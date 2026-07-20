@@ -52,7 +52,7 @@ main{
     color: #333333;
     background-image: url(imagens/bannerMTbrabo.jpg);
 }
-.banner__img{
+.banner__imagem{
     width: 100%;
     opacity: 0.5;
     
@@ -65,7 +65,7 @@ main{
 
     color: #2E5D87;
 }
-.sobre__paragrafo p{
+.sobre__paragrafo{
     font-size: 1.25rem;
 }
 
@@ -107,7 +107,7 @@ main{
     text-align: center;
     
 }
-.depo h4{
+.depoimento h4{
     font-size: larger;
     text-align: center;
     padding-bottom: 2em;
@@ -162,12 +162,12 @@ input[type = "number"]{
     -moz-appearance: textfield;
     appearance: textfield;
 }
-button{
+.contato__botap{
     color: #2E5D87;
     background-color: #696565;
     border-radius: 0.5rem;
 }
-button:hover{
+.contato__botao--colorido :hover{
     background-color:#121212;
 }
 footer{
@@ -181,7 +181,7 @@ footer{
         gap: 1rem;
         text-align: center;
     }
-    .cabecalho__navega{
+    .cabecalho__nav{
         display: flex;
         flex-direction: column;
         gap: 0.8rem;
@@ -200,13 +200,13 @@ footer{
         width: 100%;
         max-width: 20rem;
     }
-    .contato{
+    .contato__container{
         width: 100%;
     }
 }
 
 /*Tablet*/
-@media (max-widht:900px){
+@media (max-width:900px){
     main{
         width: 90%;
     }
