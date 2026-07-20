@@ -30,16 +30,16 @@ main{
 
     color: #2E5D87;
 }
-.cabecalho__navega{
+.cabecalho__nav{
     text-align: right;
     padding-right: 1rem;
 }
-.navega--colorido a{
-    color: #333333;
+.cabecalho__link{
     text-decoration: none;
+    color: #333333;
 }
-.navega--hover a:hover{
-    color: #2E5D87; 
+.cabecalho__link :hover{
+    color: #2E5D87;
 }
 .cabecalho img{
     height: 74px;
@@ -52,7 +52,7 @@ main{
     color: #333333;
     background-image: url(imagens/bannerMTbrabo.jpg);
 }
-.banner__imagem{
+.banner__img{
     width: 100%;
     opacity: 0.5;
     
@@ -76,7 +76,7 @@ main{
     padding-bottom: 2em;
     color: #2E5D87;
 }
-.servico--container{
+.servico__container{
     display: grid;
     grid-template-columns: repeat(2, 12rem);
     gap: 2em;
@@ -84,23 +84,23 @@ main{
     justify-content: center;
     text-align: center;
 }
-.servico--topico{
+.servico__topico{
     color: #333333;
 }
-.servico--moldura{
+.servico__moldura{
     max-width: 12rem;
     height: 100%;
     background-color: #F4F4F4;
     border-radius: 1rem;
     border: 1px solid#D9D9D9;
 }
-.moldura img{
+.servico__moldura img{
     max-width: 12rem;
     height: 50%;
 }
 
 /*Depoimentos*/
-.depoimento--container{
+.depoimento__container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
@@ -113,7 +113,7 @@ main{
     padding-bottom: 2em;
     color: #2E5D87;
 }
-.depoimento--moldura{
+.depoimento__moldura{
     width: 12rem;
     height: 12rem;
     
@@ -121,14 +121,14 @@ main{
     background-color: #F4F4F4;
     border: 1px solid#D9D9D9;
 }
-.depoimento--cliente{
+.depoimento__cliente{
     color: #333333;
     display: grid;
     text-align: center;
 }
 
 /*Contatos*/
-.contato{
+.contato__container{
     width: 20rem;
     height: 20rem;
     margin: 2rem auto;
@@ -142,7 +142,7 @@ main{
     border-radius: 0.5rem;
     border: 2px solid#D9D9D9;
 }
-.contato h5{
+.contato__titulo {
     font-size: larger;
     color: #2E5D87;
 }
@@ -186,17 +186,17 @@ footer{
         flex-direction: column;
         gap: 0.8rem;
     }
-    .container{
+    .servico__container{
         grid-template-columns: 1fr;
     }
-    .quadrado{
+    .depoimento__moldura{
         max-width: 100%;
     }
-    .retangulo{
+    .depoimento__container{
         grid-template-columns: 1fr;
        gap: 2rem;
     }
-    .caixa{
+    .depoimento__cliente{
         width: 100%;
         max-width: 20rem;
     }
@@ -210,10 +210,10 @@ footer{
     main{
         width: 90%;
     }
-    .container{
+    .servico__container{
         grid-template-columns: repeat(2, 1fr);
     }
-    .retangulo{
+    .depoimento__container{
         grid-template-columns: 1fr;
         gap: 2rem;
     }
