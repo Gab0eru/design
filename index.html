@@ -15,17 +15,17 @@
             
             <!--Menu de navegação-->
             <nav class="cabecalho__nav">
-                <a href="#sobre">Sobre nós</a>
-                <a href="#servicos">Serviços</a>
-                <a href="#depo">Depoimentos </a>
-                <a href="#contato">Contatos </a>
+                <a class="cabecalho__link" href="#sobre">Sobre nós</a>
+                <a class="cabecalho__link" href="#servicos">Serviços</a>
+                <a class="cabecalho__link" href="#depo">Depoimentos </a>
+                <a class="cabecalho__link" href="#contato">Contatos </a>
             </nav>
         </section>
     </header>
 
     <main>
         <!--Conteúdo principal-->
-        <div class="banner">
+        <div class="banner__img">
             <h1>Bem-vindo!</h1>
             <section class="sobre" id="sobre">
                 <h2>ACW: transformando ideias em experiências digitais!</h2>
@@ -42,52 +42,52 @@
         <!--Serviços-->
         <section class="servico" id="servicos">
             <h3>Serviços:</h3>
-            <div class="container">
-                <div class="quadrado">
-                    <img src="imagens/criacaoDeSite (2).png" alt="icone de criação de site" class="cria">
-            <p class="topico">Criação de sites</p>Criamos sites personalizados que 
-            encaixem na identidade visual de seu negócio.
-                </div>
-                <div class="quadrado">
-                   <img src="imagens/marketing (2).png" alt="icone de marketing">
-            <p class="topico">Marketing digital</p>com uma equipe especialista em 
-            marketing digital que vai ajudar a levar o seu produto
-            ao feed do seu cliente.
-                </div>
-                <div class="quadrado">
-                    <img src="imagens/branding (2).png" alt="icone de branding"> 
-            <p class="topico">Branding</p> nossos desingners estão a disposição
-            para personalizar, reformular ou adicionar pequenos toques
-            a sua marca.
-                </div>
-                <div class="quadrado">
-                    <img src="imagens/design (2).png" alt="icone de design">
-                <p class="topico">Design gráfico</p> também personalizamos materiais fisicos
-                como embalagens e banners, prezando sempre pela identidade
-                unica da sua marca.
-                </div>
+            <div class="servico__container">
+                    <div class="servico__moldura">
+                        <img src="imagens/criacaoDeSite (2).png" alt="icone de criação de site" class="cria">
+                        <p class="servico--topico">Criação de sites</p>Criamos sites personalizados que 
+                        encaixem na identidade visual de seu negócio.
+                    </div>
+                    <div class="servico__moldura">
+                        <img src="imagens/marketing (2).png" alt="icone de marketing">
+                        <p class="servico--topico">Marketing digital</p>com uma equipe especialista em 
+                         marketing digital que vai ajudar a levar o seu produto
+                        ao feed do seu cliente.
+                    </div>
+                    <div class="servico__moldura">
+                        <img src="imagens/branding (2).png" alt="icone de branding"> 
+                        <p class="servico__topico">Branding</p> nossos desingners estão a disposição
+                        para personalizar, reformular ou adicionar pequenos toques
+                        a sua marca.
+                    </div>
+                    <div class="servico__moldura">
+                        <img src="imagens/design (2).png" alt="icone de design">
+                        <p class="servico__topico">Design gráfico</p> também personalizamos materiais fisicos
+                        como embalagens e banners, prezando sempre pela identidade
+                        unica da sua marca.
+                    </div>
             </div>
         </section>
        
         <!--Depoimentos-->
         <section class="depo" id="depo"></div>
             <h4>Depoimentos:</h4>
-                <div class="retangulo">
-                    <div class="caixa">
-                        <p class="cliente">Marcos Silva</p>INCRIVEL atendimento, além de rápido
+                <div class="depoimento__container">
+                    <div class="depoimento__moldura">
+                        <p class="depoimento__cliente">Marcos Silva</p>INCRIVEL atendimento, além de rápido
                         é atencioso e sempre procuram entender
                         o que o cliente precisa
                     </div>
-                    <div class="caixa">
-                        <p class="cliente">James Bonnet</p>Minha marca foi elevada a outro nível!
+                    <div class="depoimento__moldura">
+                        <p class="depoimento__cliente">James Bonnet</p>Minha marca foi elevada a outro nível!
                         achava que era impossível uma loja de
                         bananas chegar a tantas pessoas, minha
                         maior dificuldade agora é conseguir 
                         fornecer a tantos clientes que vieram
                         após os toques da equipe de marketing.
                     </div>
-                    <div class="caixa">
-                        <p class="cliente">Carlos Françòis</p>Criei minha marca do zero com eles! após
+                    <div class="depoimento__moldura">
+                        <p class="depoimento__cliente">Carlos Françòis</p>Criei minha marca do zero com eles! após
                         três dias tinha um site funcional e uma 
                         identidade visual que combinava com meus
                         serviços.
@@ -96,8 +96,8 @@
         </section>        
        
         <!--Contatos-->
-        <section class="contato" id="contato">
-            <h5>Contato</h5>
+        <section class="contato__container" id="contato">
+            <h5 class="contato__titulo">Contato</h5>
             <p>(xx) xxxxx-xxxx</p>
             <p>agenciaCriativa@gmail.com</p>
             <input type="text" placeholder="Nome">

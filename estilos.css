@@ -76,7 +76,7 @@ main{
     padding-bottom: 2em;
     color: #2E5D87;
 }
-.container{
+.servico--container{
     display: grid;
     grid-template-columns: repeat(2, 12rem);
     gap: 2em;
@@ -84,23 +84,23 @@ main{
     justify-content: center;
     text-align: center;
 }
-.topico{
+.servico--topico{
     color: #333333;
 }
-.quadrado{
+.servico--moldura{
     max-width: 12rem;
     height: 100%;
     background-color: #F4F4F4;
     border-radius: 1rem;
     border: 1px solid#D9D9D9;
 }
-.quadrado img{
+.moldura img{
     max-width: 12rem;
     height: 50%;
 }
 
 /*Depoimentos*/
-.retangulo{
+.depoimento--container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
@@ -113,7 +113,7 @@ main{
     padding-bottom: 2em;
     color: #2E5D87;
 }
-.caixa{
+.depoimento--moldura{
     width: 12rem;
     height: 12rem;
     
@@ -121,7 +121,7 @@ main{
     background-color: #F4F4F4;
     border: 1px solid#D9D9D9;
 }
-.cliente{
+.depoimento--cliente{
     color: #333333;
     display: grid;
     text-align: center;
